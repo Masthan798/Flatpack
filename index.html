@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #website{
+              display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          #navibar{
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              gap: 700px;
+              padding: 20px 0px;
+              #navi_menu{
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 30px;
+                  #navi_text{
+                      color: gray;
+                      font-size: 20px;
+                  }
+                  #icons{
+                      display:flex;
+                      flex-direction: row;
+                      justify-content: center;
+                      align-items: center;
+                      gap: 10px;
+                      #icons{
+                          height: 30px;
+                          width: 30px;
+                          border-radius: 50%;
+                      }
+
+                  }
+              }
+          }
+          #main{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              border: 2px black solid;
+              padding: 100px 300px;
+              gap: 50px;
+              background-image: url(https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/home-bg.png );
+              #bundle{
+                  font-size: 50px;
+                  color: white;
+
+              }
+              #pixport{
+                 font-size:20px ;
+                  color: white;
+                  width: 950px;
+                  text-align: center;
+              }
+              #first{
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 15px;
+                  border: 2px  black solid;
+                  padding: 10px 10px;
+                  width: 500px;
+                  border-radius: 10px;
+                  background-color: rgba(0, 0, 0, 0.827);
+                  #email{
+                      height: 35px;
+                      width: 280px;
+                      border-radius: 10px;
+                      padding-left: 15px;
+                      }
+                      #sub{
+                          background-color:rgb(13, 191, 240);
+                          border: none;
+                          cursor:pointer;
+                          font-size: 10px;
+                          color: white;
+                          padding:13px 30px ;
+                          border-radius: 10px;
+                      }
+                      #note{
+                        color: white;
+                      }
+                  }
+              }
+
+          }
+          #main_box{
+              display: flex;
+              flex-direction:column;
+              justify-content: center;
+              align-items: center;
+              padding: 50px 0px;
+              #sub_boxA{
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 20px;
+                  #icon{
+                      border: 2px skyblue solid;
+                      padding: 35px;
+                      border-radius: 50px;
+                      #font{
+                          font-size: 15px;
+                          color: antiquewhite;
+                          width: 500px;
+                          text-align: center;
+                      }
+
+                  }
+              }
+
+          }
+          #room{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            padding: 20px;
+            gap: 20px;
+            #room1{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              font-size: 30px;
+              padding: 20px;
+              gap: 30px;
+              #door1{
+                font-size: 35px;
+                color: black;
+                font-weight: bold;
+              }
+              #door2{
+                font-size: 20px;
+                color: black;
+                font-weight: bold;
+              }
+              #door3{
+                font: 10px;
+                color: gray;
+                font-weight: bold;
+              }
+            }
+          }
+          #box{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 20px;
+            padding: 20px 10px;
+            #pic{
+              display: flex;
+              flex-direction: row;
+              justify-content: row;
+              align-items: center;
+              gap: 10px;
+              padding-left: 50px;
+
+            }
+            #box2{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              font-size: 30px;
+              padding: 20px;
+              gap: 20px;
+              #bring{
+                font-size: 35px;
+                color: black;
+                font-weight: bold;
+              }
+              #our{
+                font-size: 20px;
+                color: black;
+                font-weight: bold;
+              }
+              #lorem{
+                font-size: 30px;
+                color: gray;
+                font-weight: bold;
+              }
+            }
+          }
+          #sub_room3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            #room4{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 15px;
+              #door1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 40px;
+                width: 1000px;
+              }
+              #door2{
+                font-size:25px;
+                color: gray;
+              }
+            }
+            #room5{
+              gap: 50px;
+              width: 1600px;
+              #file{
+                padding: 127px;
+              }
+            }
+          }
+          #sub_room4{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 20px;
+            padding-bottom: 30px;
+            border: 2px gray solid;
+            background-color:rgba(211, 211, 211, 0.851);
+            #room6{
+              display: flex;
+              flex-direction: column;
+              justify-content:center;
+              align-items: center;
+              gap: 15px;
+              #door1{
+                font-size: 40px;
+              }
+              #door2{
+                font-size: 25px;
+                columns: gray;
+              }
+            }
+            #room7{
+              display: flex;
+              flex-direction: row;
+              justify-content:center;
+              align-items: center;
+              gap: 20px;
+              background-color: white;
+              padding-left: 20px;
+              border-radius: 14px;
+              #door{
+                color: rgba(32, 30, 30, 0.755);
+                #door1{
+                  width: 430px;
+                  font-size: 20px;
+                  padding: 15px;
+                }
+              }
+              #small{
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+                align-items: start;
+                width: 250px;
+                color: skyblue;
+                font-size: 20px;
+              }
+            }
+          }
+          #cont{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 40px;
+            width: 100%;
+            padding-left: 20px;
+            #sub_cont{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 500px;
+              gap: 30px;
+              padding-top: 70px;
+              #ready{
+                font-size: 40px;
+                color: black;
+                font-weight: bold;
+              }
+              #more{
+                font-size: 25px;
+                color: lightgray;
+                font-weight: bold;
+              }
+              #bot{
+                background-color:rgb(13, 191, 240);
+                border: none;
+                cursor:pointer;
+                font-size: 18px;
+                color: white;
+                padding:13px 30px ;
+                border-radius: 10px;
+              }
+            }
+            #man{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding: 0px;
+              gap: 20px;
+              #rocket{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                font-size: 20px;
+                padding: 20px;
+                gap: 20px;
+              }
+            }
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <div id="website">
+      <div id="navibar">
+        <img
+          src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo.png"
+        />
+        <div id="navi_menu">
+          <div id="navi_text">stay connected</div>
+          <div id="icons">
+            <img
+              id="icons"
+              src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg"
+              alt=""
+            />
+            <img
+              id="icons"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s"
+              alt=""
+            />
+            <img
+              id="icons"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div id="main">
+        <div id="bundle">HTML BUNDLE IS HERE</div>
+        <div id="pixport">
+          More than 10 unique HTML templates in one bundle isn't that awesome
+          with a lot of features and great design brought to you by PixFort.
+        </div>
+        <div id="first">
+          <input id="email" type="text" placeholder="Enter Your Email" />
+          <button id="sub" type="submit">SUBSCRIBE NOW</button>
+        </div>
+        <div id="note">*Note: Bundle ends in two weeks from now</div>
+      </div>
+      <div id="main_box">
+        <div id="sub_boxA">
+          <img
+            id="icon"
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/1.png"
+            alt=""
+          />
+          <div id="font">
+            <strong>+1500</strong> High qualityvideo tutorials.
+          </div>
+          <img
+            id="icon"
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/1.png"
+            alt=""
+          />
+          <div id="font">
+            <strong>+1500</strong> High qualityvideo tutorials.
+          </div>
+          <div id="sub_boxA">
+            <img
+              id="icon"
+              src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/1.png"
+              alt=""
+            />
+            <div id="font">
+              <strong>+1500</strong> High qualityvideo tutorials.
+            </div>
+          </div>
+        </div>
+        <div id="room">
+          <div id="room1">
+            <div id="door1">The most amazing thing is here</div>
+            <div id="door2">Our service is astonishingly thin and light.</div>
+            <div id="door3">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim
+              ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex commodo consequat Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </div>
+          </div>
+          <div id="room1">
+            <img
+              src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/machine.png"
+              alt="no image"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="box">
+        <div id="pic">
+          <img
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/domains-that-never-sleep.png"
+            alt="no image"
+          />
+        </div>
+        <div id="box2">
+          <div id="bring">Bring it to life again with us</div>
+          <div id="our">Our service is astonishingly thin and light.</div>
+          <div id="lorem">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim
+            ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex commodo consequat Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+      </div>
+      <div id="room">
+        <div id="room1">
+          <div id="door1">Responsive ready wordpress</div>
+          <div id="door2">Our service is astonishingly thin and light.</div>
+          <div id="door3">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim
+            ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex commodo consequat Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+        <div id="room1">
+          <img
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/website-builder.png"
+            alt="no image"
+          />
+        </div>
+      </div>
+      <div id="sub_room3">
+        <div id="room4">
+          <div id="door1">Great people trusted our services</div>
+          <div id="door2">great words from great people</div>
+        </div>
+        <div id="room5">
+          <img
+            id="file"
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_1.png"
+            alt="no image"
+          />
+          <img
+            id="file"
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_2.png"
+            alt="no image"
+          />
+          <img
+            id="file"
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_3.png"
+            alt="no image"
+          />
+          <img
+            id="file"
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_4.png"
+            alt="no image"
+          />
+        </div>
+      </div>
+      <div id="sub_room4">
+        <div id="room6">
+          <div id="door1">What our awesome clients say</div>
+          <div id="door2">great words from great people</div>
+        </div>
+        <div id="room7">
+          <img
+            id="s"
+            src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/testimonials/envato-logo.png"
+            alt=""
+          />
+          <div id="door">
+            <div id="door1">
+              Im a web designer, you guys are very inspiring I wish to see more
+              work from maybe more freebies.
+            </div>
+            <div id="small">
+              <img
+                src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/stars.original.png"
+                alt=""
+              />
+              <div id="door2">via Envato.com</div>
+            </div>
+          </div>
+        </div>
+        <div id="room7">
+          <img id="s"src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/testimonials/unboune-logo.png"alt=""/>
+          <div id="door">
+            <div id="door1">Great service with fast and relible support The design work and detail put into themes are great.</div>
+            <div id="small">
+              <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/stars.original.png"alt=""/>
+              <div id="door2">via pixfort.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="cont">
+        <div id="sub_cont">
+          <div id="ready">Are you ready for this?</div>
+          <div id="more">More than 10,000 apps are waiting for you with awesome features and prices that will be great for you, join us now by entering you email and subscribe us now, wow.</div>
+          <button id="bot" type="submit">SUBSCRIBE NOW</button>
+        </div>
+        <div id="man">
+          <img id="rocket"src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/speed-and-security.png" alt="">
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
